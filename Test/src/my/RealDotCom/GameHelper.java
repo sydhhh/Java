@@ -28,12 +28,12 @@ public class GameHelper {
    
  public ArrayList<String> placeDotCom(int comSize) {       
     ArrayList<String> alphaCells = new ArrayList<String>();
-    String [] alphacoords = new String [comSize];      // 淇濆瓨瀛楃涓�
-    String temp = null;                                // 涓存椂瀛楃涓�
-    int [] coords = new int[comSize];                  // 鐜版湁瀛楃涓�
-    int attempts = 0;                                  // 鐩墠娴嬭瘯鐨勫瓧绗︿覆
-    boolean success = false;                           // flag = 鎵惧埌浜嗗悎閫傜殑瀛楃鍚� ?
-    int location = 0;                                  // 鐩墠璧风偣
+    String [] alphacoords = new String [comSize];      // 保存字符串
+    String temp = null;                                // 临时字符串
+    int [] coords = new int[comSize];                  // 现有字符串
+    int attempts = 0;                                  // 目前测试的字符串
+    boolean success = false;                           // flag = 找到了合适的字符吗 ?
+    int location = 0;                                  // 目前起点
     
     comCount++;                                      
     int incr = 1;                                       

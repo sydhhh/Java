@@ -1,0 +1,13 @@
+package test;
+
+import java.util.ArrayList;
+
+public class aaa {
+	public static void main(String [] args){  
+		double d = 42.5;
+		String doubleString = "t" + d;
+		System.out.println(doubleString);
+	   }
+	
+	
+}

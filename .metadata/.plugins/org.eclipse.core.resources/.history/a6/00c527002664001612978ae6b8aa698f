@@ -1,0 +1,11 @@
+package test;
+
+import java.lang.Math;
+
+public class aaa {
+	public static void main(String [] args){  
+		System.out.println("sqrt " + Math.sqrt(2.0));
+	   }
+	
+	
+}

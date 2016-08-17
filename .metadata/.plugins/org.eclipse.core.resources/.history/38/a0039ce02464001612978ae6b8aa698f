@@ -1,0 +1,14 @@
+package test;
+
+import java.util.ArrayList;
+import java.util.Date;
+
+public class aaa {
+	public static void main(String [] args){  
+		Date today = new Date();
+		String.format("%tA, %<tB %<td",today);
+		System.out.println(today);
+	   }
+	
+	
+}

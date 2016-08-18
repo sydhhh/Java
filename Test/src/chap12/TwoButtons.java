@@ -32,7 +32,7 @@ public class TwoButtons  {
        frame.getContentPane().add(BorderLayout.EAST, labelButton);
        frame.getContentPane().add(BorderLayout.WEST, label);
 
-       frame.setSize(420,300);
+       frame.setSize(820,600);
        frame.setVisible(true);
     }
     
@@ -63,7 +63,7 @@ class MyDrawPanel extends JPanel {
 
          Color randomColor = new Color(red, green, blue);
          g.setColor(randomColor);
-         g.fillOval(70,70,100,100);
+         g.fillOval(140,140,200,200);
       }
 
 }
